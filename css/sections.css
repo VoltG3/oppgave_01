@@ -5,7 +5,6 @@
     flex-direction: column;
     width: inherit;
     height: inherit;
-    border: solid 1px black;
 }
 
     .header {
@@ -16,7 +15,7 @@
         width: inherit;
         max-height: 30px;
         height: 100%;
-        background: var(--color--tertiary);
+        background: var(--color--secondary);
     } .header p { color: var(--color--default); }
 
     .image {
@@ -40,7 +39,8 @@
         width: 48%;
         text-align: justify;
         text-justify: inter-word;
-    } .content > div > h3, p { color: var(--color--primary)}
+    } .content > div > h3, p { color: var(--color--primary); }
+      .content > div > h3 { border-bottom: solid 2px var(--color--secondary); }
 
     .footer {
         display: flex;
